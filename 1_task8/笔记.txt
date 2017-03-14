@@ -1,0 +1,12 @@
+
+1.栅栏布局 的实现是 利用左浮动总想往左上方向靠近并且在合适条件（空间足够）下实现该想法的特点。
+
+2.栅栏布局的使用一定要有外部容器 .container。
+
+3.box-sizing：boder-box；是实现盒子并列的好工具。
+
+4.父元素围住浮动子元素的三种方法：
+	a.自身浮动。
+	b.overflow：hidden；
+	c.伪元素法： 某父 ：afte{ content：“”；display：table；clear：both；}
+			PS：：afte 是在父元素的内容插入，而非外部插入。
